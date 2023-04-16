@@ -124,10 +124,7 @@ public class jogoVelha {
     return false;
     
 }
-    /*public static void imprimeTabuleiro(char[][] tabuleiro) {
-    System.out.println("Tabuleiro:");
-    for (int i = 0; i < 3; i++) {
-    for (int j = 0; j < 3; j++) {*/
+    
         public static void imprimeTabuleiro(char[][] tabuleiro) {
             System.out.println("   0   1   2");
             System.out.println("0  " + tabuleiro[0][0] + " | " + tabuleiro[0][1] + " | " + tabuleiro[0][2]);
@@ -137,13 +134,7 @@ public class jogoVelha {
             System.out.println("2  " + tabuleiro[2][0] + " | " + tabuleiro[2][1] + " | " + tabuleiro[2][2]);
         }
         
-        /*System.out.println("   0\t  | 2\t | 3\t");
-    System.out.printf("0    %c  | %c  | %c  ", tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]);
-    System.out.println("   ------------------");
-    System.out.printf("0    %c  | %c  | %c  ", tabuleiro[1][0], tabuleiro[1][1], tabuleiro[1][2]);
-    System.out.println("   ------------------");
-    System.out.printf("0    %c  | %c  | %c  ", tabuleiro[2][0], tabuleiro[2][1], tabuleiro[2][2]);*/    
-   
+        
     
 }
     
